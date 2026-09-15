@@ -1,36 +1,59 @@
-# Hi there! 👋 I'm Yasmina
+# Hi, I'm Yasmina Medjri 👋
 
-I'm a passionate software engineer with a focus on machine learning and data analysis. I enjoy tackling complex problems and leveraging the power of AI to build intelligent solutions.
+**AI Engineer — Generative AI, LLMs & Applied Machine Learning**
 
-## 🔭 Current Projects
+Final-year Engineering & Master's student in Artificial Intelligence and Data Science at the **National Higher School of Artificial Intelligence (ENSIA)**, Algiers (graduating May 2026). I build and deploy Generative AI applications — LLM fine-tuning, RAG pipelines, prompt engineering, and full-stack AI products — from prototype to production.
 
-- [Breast Cancer Detection](https://github.com/Yasmina3/Breast-Cancer-Detection): Developing an AI-powered system for early detection of breast cancer using machine learning techniques.
-- [Customer Churn Prediction](https://github.com/Yasmina3/Customer-Churn-Prediction): Building a predictive model to identify customers likely to churn and provide insights for retention strategies.
+📍 Algiers, Algeria · Open to remote · 🗣️ Arabic (native), French & English (fluent)
 
-## 🌱 Skills and Expertise
+📫 [LinkedIn](https://linkedin.com/in/yasmina-medjri) · yasmina.medjri@ensia.edu.dz
 
-- Programming Languages: Python, Java, C++
-- Machine Learning: Scikit-learn, TensorFlow, Keras
-- Data Analysis: Pandas, NumPy, Matplotlib
-- Natural Language Processing: NLTK, spaCy
-- Web Development: HTML, CSS, JavaScript
-- Databases: SQL, MongoDB
-- Version Control: Git, GitHub
+---
 
-## 🎓 Education
+## 🔧 What I work with
 
-- Bachelor's Degree in Computer Science, XYZ University (2018-2022)
+**Generative AI & LLMs:** Fine-tuning (LoRA, Unsloth), RAG pipelines, prompt engineering, vector search, embeddings
+**ML / DL:** Python, PyTorch, TensorFlow, NLP, Computer Vision, embedded/edge AI
+**Backend & APIs:** Django, Flask, FastAPI, Node.js, Laravel, Spring Boot, REST APIs
+**Frontend & Mobile:** React, Angular, Vue.js, Flutter
+**Data & Vector Stores:** PostgreSQL, MySQL, MongoDB, Firebase, ChromaDB, FAISS, Redis
+**Infra & Automation:** Docker, Nginx, Gunicorn, Kafka, MinIO S3, n8n, Git/GitHub
 
-## 🚀 Projects and Achievements
+---
 
-- [NLP Project](https://github.com/Yasmina3/NLP-project): Developed a sentiment analysis model using NLP techniques to classify customer reviews.
-- [MLC Project](https://github.com/Yasmina3/MLC-Project): Collaborated on a multi-label classification project to predict movie genres based on plot summaries.
-- Participated in the ABC Machine Learning Hackathon and secured 2nd place.
+## 🚀 Selected projects
 
-## 📫 Let's Connect
+**🩺 Embedded AI for Early Breast Cancer Detection** *(Engineering & Master's thesis — ENSIA × FEMTO-ST Institute, France)*
+Wearable device combining thermal biosensors with embedded AI models to detect breast cancer early through dynamic thermal-response analysis. Focus on generative models, signal processing, and edge inference.
+`Python` `PyTorch` `TensorFlow` `Embedded AI`
 
-- LinkedIn: [Your LinkedIn Profile URL]
-- Email: yasmina.medjri@example.com
-- Portfolio: [Your Portfolio Website URL]
+**📚 Tarikhona — AI-Powered History Learning Platform** *(Team Lead)*
+Educational app teaching Algerian history through fine-tuned LLMs and RAG. Designed and implemented the full AI pipeline.
+`LoRA` `Unsloth` `RAG` `Django` `Flutter`
 
-Feel free to explore my repositories and don't hesitate to reach out if you have any questions or collaboration opportunities!
+**✍️ Enterprise Content Creation Platform with AI Agents** *(Internship — Brenco Engineering & Consulting)*
+Web platform generating personalized business content using LLM fine-tuning, RAG, and retrieval pipelines. Handled fine-tuning, API development, deployment, caching, and testing.
+`Python` `Flask` `ChromaDB` `FAISS` `Redis` `Docker`
+
+**🗂️ Distributed Document Management System** *(ENSIA)*
+Microservices-based DMS with S3-compatible storage, API Gateway, JWT auth, Kafka, and an AI-assisted translation module.
+`Spring Boot` `FastAPI` `Kafka` `MinIO S3` `Gemini API`
+
+**🛒 Smart Checkout Mobile App** *(ENSIA)*
+Self-checkout simulation using the phone camera, OCR, and backend services.
+`Flutter` `Firebase` `Python` `OCR`
+
+---
+
+## 💼 Experience
+
+- **AI & Full Stack Developer (part-time)** — SQPS · *2025–present*
+- **AI Intern** — Brenco Engineering & Consulting · *Sep 2024 – Feb 2025*
+- **Marketing Manager** — GOSTU (EdTech) · *2022–2023*
+
+---
+
+## 📊 GitHub
+
+![Yasmina's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yasmina3&show_icons=true&theme=default)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yasmina3&layout=compact)
