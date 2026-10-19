@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Generative%20AI-6C5CE7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Based%20in-Algeria%20%F0%9F%87%A9%F0%9F%87%BF-00B894?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Based%20in-France%20%F0%9F%87%AB%F0%9F%87%B7-0055A4?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Open%20to-Remote-0984E3?style=for-the-badge" />
 </p>
 
