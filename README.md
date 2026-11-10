@@ -13,7 +13,7 @@
 ### 👋 About me
 
 - 🎓 **M2 High Performance Computing & Simulation (CHPS)** at Université Paris-Saclay / UVSQ (2026–2027)
-- 🎓 **State Engineer + Master in AI & Data Science**, ENSIA Algiers (2021–2026), top 15 of ~100
+- 🎓 **State Engineer + Master in AI & Data Science**, ENSIA Algiers (2021–2026).
 - 🔬 Final-year research project at **FEMTO-ST (CNRS)**: physics simulation + graph neural networks for breast cancer detection
 - 💼 Part-time **AI automation & software developer** at SQPS (Switzerland)
 - 🔭 **Looking for a 4–6 month internship from March 2027** combining **AI and HPC**: GPU optimization, AI for science, efficient training and inference
