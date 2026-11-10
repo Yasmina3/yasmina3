@@ -1,109 +1,71 @@
-<h1 align="center">Hi, I'm Yasmina Medjri 👋</h1>
+<h1 align="center">Yasmina Medjri</h1>
+<h3 align="center">AI & HPC Engineer · I make AI models smarter, and make them run faster</h3>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=AI+Engineer;Generative+AI+%26+LLM+Developer;RAG+%7C+Fine-tuning+%7C+Prompt+Engineering;Turning+ideas+into+intelligent+products" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Generative%20AI-6C5CE7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Based%20in-France%20%F0%9F%87%AB%F0%9F%87%B7-0055A4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Open%20to-Remote-0984E3?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/yasmina-medjri-046734242"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/yasmina-medjri-ai-engineer/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:yasmina.medjri@ensia.edu.dz"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://huggingface.co/yasmina3"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" /></a>
+  <img src="https://img.shields.io/badge/Paris%2C%20France-0055A4?style=for-the-badge" />
 </p>
 
 ---
 
-### 🧠 About me
+### 👋 About me
 
-```python
-class Yasmina:
-    def __init__(self):
-        self.role       = "AI Engineer"
-        self.school     = "ENSIA — National Higher School of AI, Algiers"
-        self.graduating = "May 2026"
-        self.focus      = ["Generative AI", "LLMs", "RAG", "Full-Stack AI"]
-        self.languages  = ["Arabic (native)", "French", "English"]
-
-    def current_work(self):
-        return "Building & deploying LLM-powered apps, from prototype to production 🚀"
-```
+- 🎓 **M2 High Performance Computing & Simulation (CHPS)** at Université Paris-Saclay / UVSQ (2026–2027)
+- 🎓 **State Engineer + Master in AI & Data Science**, ENSIA Algiers (2021–2026), top 15 of ~100
+- 🔬 Final-year research project at **FEMTO-ST (CNRS)**: physics simulation + graph neural networks for breast cancer detection
+- 💼 Part-time **AI automation & software developer** at SQPS (Switzerland)
+- 🔭 **Looking for a 4–6 month internship from March 2027** combining **AI and HPC**: GPU optimization, AI for science, efficient training and inference
+- 🗣️ Arabic (native) · French (C1) · English (C1)
 
 ---
 
-### 🛠️ Tech Stack
+### ⭐ Featured work
 
-**AI / ML**
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-6C5CE7?style=flat-square" />
-  <img src="https://img.shields.io/badge/FAISS-005571?style=flat-square" />
-  <img src="https://img.shields.io/badge/ChromaDB-FFB000?style=flat-square" />
-</p>
+**⚡ [cuda-sgemm](https://github.com/Yasmina3/cuda-sgemm): a CUDA matrix multiply at 97.5% of cuBLAS**
+Hand-written FP32 GEMM on an H100 (46.2 vs 47.3 TFLOP/s), built up in 8 explained steps from 1% to 97.5% of cuBLAS. Includes a TF32 tensor-core kernel written with PTX `mma.sync` (+52% over WMMA), an autotuner over 169+ configurations, roofline and SASS analysis, and a 29-case correctness suite. Runs on the ROMEO supercomputer via Slurm.
+`CUDA` `PTX` `Nsight` `Slurm` `Python`
 
-**Backend & APIs**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-</p>
+**🩺 Breast cancer detection with wearable thermography** *(ENSIA × FEMTO-ST, private)*
+Physics simulation (COMSOL), a reduced-order model ~10,000× faster than the simulator (0.045 °C error), and graph neural networks with sim-to-real transfer reaching **AUC 0.95** on real patient data.
+`PyTorch` `GNN` `COMSOL` `Scientific ML`
 
-**Frontend & Mobile**
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-</p>
+**📚 [Algerian History AI Tutor](https://github.com/Yasmina3/algerian-history-ai-tutor)**
+Llama 3.2 3B fine-tuned with QLoRA on Arabic Q&A ([model on Hugging Face](https://huggingface.co/yasmina3/History-final-Llama-3.2-3B-Instruct-bnb-4bit)), RAG over ~200k chunks, and Llama 70B calling the fine-tuned model as a tool.
+`Unsloth` `LoRA` `RAG` `Pinecone` `Groq`
 
-**Data & Infra**
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
-</p>
+**🌲 [GeoForest-AI](https://github.com/Yasmina3/multispectral-forest-classifier)** · 🏆 1st place, Mathix 2025 (Algerian Space Agency)
+Forest mapping on 6M multispectral satellite pixels, **98.3% accuracy on an unseen region**.
+`XGBoost` `Rasterio` `Geospatial`
+
+**🔥 [Wildfire AI Guard](https://github.com/Yasmina3/WILDFIRE-AI-GUARD-DEMO)** · 🏆 1st place, Huawei Tech4Connect 2026
+AI + 5G + drones system for wildfire detection and spread prediction. [Live 3D demo](https://yasmina3.github.io/WILDFIRE-AI-GUARD-DEMO/).
+`Computer Vision` `Three.js`
+
+**🤖 AutoJobAgent** *(SQPS, [autojobagent.ch](https://autojobagent.ch))*
+Autonomous job-search agent I built solo: CV parsing, multi-platform scraping, AI match scoring and tailored applications.
+`FastAPI` `React` `LLM agents` `Docker`
 
 ---
 
-### 🚀 Featured Projects
+### 🛠️ Toolbox
 
-| Project | What it does | Stack |
-|---|---|---|
-| 🩺 **Breast Cancer Detection** *(thesis, ENSIA × FEMTO-ST France)* | Wearable device with thermal biosensors + embedded AI for early detection | `PyTorch` `Embedded AI` |
-| 📚 **Tarikhona**  | History-learning app powered by fine-tuned LLMs + RAG | `LoRA` `Unsloth` `RAG` |
-| ✍️ **AI Content Platform**  | LLM-driven business content generation with retrieval pipelines | `Flask` `FAISS` `Docker` |
-| 🗂️ **Distributed DMS** | Microservices doc system with AI-assisted translation | `Spring Boot` `Kafka` `Gemini` |
-| 🛒 **Smart Checkout** | Camera + OCR self-checkout mobile app | `Flutter` `OCR` `Firebase` |
+| Area | Tools |
+|---|---|
+| **HPC & GPU** | CUDA, PTX / tensor cores, Nsight Systems, compute-sanitizer, Slurm, C/C++, performance analysis (roofline, SASS) |
+| **AI / ML** | PyTorch, TensorFlow, scikit-learn, XGBoost, graph neural networks, computer vision, reinforcement learning |
+| **LLMs** | Hugging Face, LoRA/QLoRA, Unsloth, RAG, FAISS / ChromaDB / Pinecone, agents & function calling |
+| **Simulation** | COMSOL (FEM), reduced-order models, Monte Carlo, numerical optimization |
+| **Software** | Python, FastAPI, Flask, React, Flutter, PostgreSQL, Redis, Docker, Linux, Git / CI |
 
 ---
 
-### 📊 GitHub Stats
+### 🏆 Highlights
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yasmina3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasmina3&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+- 🥇 **3 first places and 7 podiums** in 15+ hackathons, always as team lead and pitcher
+- 🌍 Selected for **MenaML Winter School 2026** at KAUST (~300 of ~2,500 applicants)
+- 🟩 **NVIDIA Deep Learning Institute** certified
+- 🎤 ~10 talks and workshops on machine learning and AI for healthcare
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yasmina3&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yasmina3&theme=tokyonight&no-frame=true&column=7&margin-w=8" />
-</p>
-
-<p align="center"><i>✨ Building the future, one model at a time.</i></p>
+<p align="center"><i>Always happy to talk about GPUs, LLMs, or AI for science. Reach out on LinkedIn!</i></p>
